@@ -1,0 +1,330 @@
+
+<!DOCTYPE html>
+<html lang="uz-UZ">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='robots' content='noindex,follow' />
+    <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="W2zHbrevpe-yjJHr06X14RUnQQUShX54HH-BCqk3dTwaOfZc9Z6dhdzCxsaa7KHWLH0YZ3-yOQl4LtQ5z1UkfQ==">
+    <title>Imtihonlar ro&#039;yxati | HEMIS Student axborot tizimi</title>
+                <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=admin"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
+            gtag('config', 'admin');
+        </script>
+            <link href="https://hemis.namdu.uz/static/assets/1619872/css/bootstrap.css?v=1550073338" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/87d5e0e3/css/select2.min.css?v=1580187682" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/fe3afed0/css/select2-addl.min.css?v=1623968263" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/fe3afed0/css/select2-default.min.css?v=1600921092" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/824b60c5/css/kv-widgets.min.css?v=1654092339" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/5ac459df/themes/smoothness/jquery-ui.css?v=1474004875" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/e692f05f/chosen_v1.4.0/chosen.min.css?v=1600921112" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/e692f05f/components-font-awesome/css/font-awesome.min.css?v=1401044116" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/35dce5a3/css/font-awesome.min.css?v=1477324374" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/57e092c/plugins/iCheck/flat/blue.css?v=1567066820" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/57e092c/dist/css/AdminLTE.min.css?v=1567066820" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/57e092c/dist/css/skins/skin-blue.min.css?v=1567066820" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/879fd64b/src/0.1.4/css/checkBo.min.css?v=1465721329" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/bdb3d0a3/toastr.min.css?v=1439176619" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/5572adf0/css/style.css?v=1667492828" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/9ab74456/css/front.css?v=1676695277" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>var s2options_7ebc6538 = {"themeCss":".select2-container--default","sizeCss":"","doReset":true,"doToggle":false,"doOrder":false};
+window.select2_565dde0b = {"allowClear":true,"placeholder":"Fanlarni tanlang","theme":"default","width":"100%","language":"uz-UZ"};
+
+var globalMessages={"deleteItem":"Haqiqatan o‘chirmoqchimisiz?"};</script>    </head>
+<body class="sidebar-mini skin-blue ">
+        <div class="wrapper">
+
+    
+<div id="modal" class="fade modal" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div id="modalHeader" class="modal-header" style="opacity:1.00;">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+Guruh jadvali ma’lumotlari
+</div>
+<div class="modal-body">
+<div id='modalContent'></div>
+</div>
+
+</div>
+</div>
+</div>    
+<header class="main-header">
+
+    <a class="logo" href="../main page/index.html"><span class="logo-lg">HEMIS Student</span></a>
+    <nav class="navbar navbar-static-top" role="navigation">
+
+        <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+            <span class="sr-only">Toggle navigation</span>
+        </a>
+
+        <div class="navbar-custom-menu">
+
+            <ul class="nav navbar-nav">
+                                    <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        O‘zbekcha                        </a>
+                    <ul class="dropdown-menu">
+                                    
+                                                                                                                                                                                                                </ul>
+                </li>
+                <!-- <li>
+                <a href="">
+                    <i class="fa fa-refresh"></i>
+                </a>
+            </li>-->
+                <li class="dropdown notifications-menu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="fa fa-bell-o"></i>
+                        <span class="label label-warning">0</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <ul class="menu">
+                                                                </ul>
+                        </li>
+                        <li class="footer">
+                            <a href="#">Barchasini ko‘rish</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dropdown  user-menu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <img src="https://hemis.namdu.uz/static/pi/7/2/72cc5ff4652b9e40bff7cb8b00e6b2f1.jpg" class="user-image"
+                             alt="TOSHTEMIROVA L.M"/>
+                        <span class="user-name">TOSHTEMIROVA L.M</span>
+                        <span class="user-role">S.RUS-BU-21</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="../dashboard/profile.html">Profil</a>                            </li>
+                        <li>
+                            <a href="../student/personal-data.html">Shaxsiy ma'lumotlarim</a>                            </li>
+                        <li role="separator" class="divider"></li>
+                        <li>
+                            <a href="../index.html"><i class='fa fa-sign-out'></i> Chiqish</a>                            </li>
+                    </ul>
+
+
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+    <aside class="main-sidebar">
+<section class="sidebar">
+    <ul class="sidebar-menu tree" data-widget="tree">
+                                        <li class="treeview menu-open">
+                <a href="../education/time-table.html">
+                    <i class="fa fa-book"></i> <span>O'quv reja</span>
+                    <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
+                </a>
+                <ul class='treeview-menu' style="display:block">
+                    <li class="">
+                <a href="../education/curriculum.html">
+                    <i class="fa fa-circle-o"></i>
+                    <span>O'quv reja</span>
+                </a>
+                </li>
+                                    <li class="">
+                <a href="../education/time-table.html">
+                    <i class="fa fa-circle-o"></i>
+                    <span>Dars jadvali</span>
+                </a>
+                </li>
+                                    <li class="">
+                <a href="../education/exam-table.html">
+                    <i class="fa fa-circle-o"></i>
+                    <span>Nazorat jadvali</span>
+                </a>
+                </li>
+                                    <li class="">
+                <a href="../education/subjects.html">
+                    <i class="fa fa-circle-o"></i>
+                    <span>Fanlar resurslari</span>
+                </a>
+                </li>
+                                    <li class="">
+                <a href="../education/attendance.html">
+                    <i class="fa fa-circle-o"></i>
+                    <span>Davomat</span>
+                </a>
+                </li>
+                                    <li class="">
+                <a href="../education/performance.html">
+                    <i class="fa fa-circle-o"></i>
+                    <span>O'zlashtirish</span>
+                </a>
+                </li>
+                                    <li class="active">
+                <a href="../education/exams.html">
+                    <i class="fa fa-circle-o"></i>
+                    <span>Imtihonlar</span>
+                </a>
+                </li>
+                                    <li class="">
+                <a href="../education/academic-data.html">
+                    <i class="fa fa-circle-o"></i>
+                    <span>Reyting daftarcha</span>
+                </a>
+                </li>
+                                    <li class="">
+                <a href="../education/subject-choose.html">
+                    <i class="fa fa-circle-o"></i>
+                    <span>Fan tanlovi</span>
+                </a>
+                </li> 
+            </ul>
+            </li>
+                                        
+                                        <li class="treeview ">
+                <a href="../student/decree.html">
+                    <i class="fa fa-user"></i> <span>Talaba ma'lumoti</span>
+                    <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
+                </a>
+                <ul class='treeview-menu' >
+                                                <li class="">
+                            <a href="../student/reference.html">
+                                <i class="fa fa-circle-o"></i>
+                                <span>Ma'lumotnomalar</span>
+                            </a>
+                        </li>
+                                                <li class="">
+                            <a href="../student/personal-data.html">
+                                <i class="fa fa-circle-o"></i>
+                                <span>Shaxsiy ma'lumotlar</span>
+                            </a>
+                        </li>
+                                                <li class="">
+                            <a href="../student/graduate-qualifying.html">
+                                <i class="fa fa-circle-o"></i>
+                                <span>Bitiruv ishi</span>
+                            </a>
+                        </li>
+                                        </ul>
+            </li>
+                                        <li class="treeview ">
+                <a href="../dashboard/profile.html">
+                    <i class="fa fa-gear"></i> <span>Tizim</span>
+                    <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
+                </a>
+                <ul class='treeview-menu' >
+                                                <li class="">
+                            <a href="../dashboard/profile.html">
+                                <i class="fa fa-circle-o"></i>
+                                <span>Profil</span>
+                            </a>
+                        </li>
+                                                <li class="">
+                            <a href="../dashboard/logins.html">
+                                <i class="fa fa-circle-o"></i>
+                                <span>Kirish tarixi</span>
+                            </a>
+                        </li>
+                                        </ul>
+            </li>
+                    <li class="">
+            <a href="https://unilibrary.uz/" target="_blank">
+                <i class="fa fa-book"></i> <span>Elektron kutubxona</span>
+            </a>
+        </li>
+    </ul>
+</section>
+</aside>
+
+    <div class="content-wrapper">
+<section class="content">
+    <div id="test-grid" data-pjax-container=""><div class="info-box box-mini">
+<div class="row">
+    <div class="col-sm-6">
+        <span class="info-box-icon bg-green"><i class="fa fa-files-o"></i></span>
+        <div class="info-box-content ">
+
+            <span class="info-box-number">
+                    S.RUS-BU-21                                    </span>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="info-box-content no-margin text-right text-center-sm">
+            <label class="hidden visible-xs plabel">Semestr</label>
+            <ul class="pagination pagination-sm psemester ">
+                <li class=" hidden-xs"><a href="#" class="plabel">Semestr</a></li>
+
+                                </ul>
+        </div>
+    </div>
+</div>
+</div>
+<div class="row">
+<div class="col col-md-12 ">
+    <div class="box box-default ">
+        <div class="box-header bg-gray">
+            <div class="row" id="data-grid-filters">
+            </div>
+        </div>
+                    <div id="data-grid" class="grid-view"><div class='box-body no-padding'><table class="table table-responsive table-striped table-hover  table-mobile"><thead>
+<tr><th>Nomi</th><th>Natija</th><th>Maks. ball</th><th>Test davri</th><th></th></tr>
+</thead>
+<tbody>
+<tr><td colspan="5"><div class="empty">Ma'lumotlar mavjud emas</div></td></tr>
+</tbody></table></div><div class='box-footer'></div></div>        </div>
+</div>
+</div>
+</div>
+</section>
+</div>
+
+<footer class="main-footer">
+<div class="hidden-xs">
+    <b>Dastur versiyasi</b> 0.8.17.2 /
+    <b>Yadro</b> 2.0.41.1 /
+    <b>Sana</b> 11.05.2023 23:21:50    </div>
+</footer>
+</div>
+<script src="https://hemis.namdu.uz/static/assets/5572adf0/js/jquery.js?v=1646171075"></script>
+<script src="https://hemis.namdu.uz/static/assets/a039600/yii.js?v=1614872704"></script>
+<script src="https://hemis.namdu.uz/static/assets/87d5e0e3/js/select2.full.min.js?v=1580187682"></script>
+<script src="https://hemis.namdu.uz/static/assets/fe3afed0/js/select2-krajee.min.js?v=1623968263"></script>
+<script src="https://hemis.namdu.uz/static/assets/824b60c5/js/kv-widgets.min.js?v=1654092339"></script>
+<script src="https://hemis.namdu.uz/static/assets/a039600/yii.validation.js?v=1614872704"></script>
+<script src="https://hemis.namdu.uz/static/assets/a039600/yii.activeForm.js?v=1614872704"></script>
+<script src="https://hemis.namdu.uz/static/assets/a039600/yii.gridView.js?v=1614872704"></script>
+<script src="https://hemis.namdu.uz/static/assets/bd7dfa98/jquery.pjax.js?v=1507803074"></script>
+<script src="https://hemis.namdu.uz/static/assets/5ac459df/jquery-ui.js?v=1474004875"></script>
+<script src="https://hemis.namdu.uz/static/assets/1619872/js/bootstrap.js?v=1550073338"></script>
+<script src="https://hemis.namdu.uz/static/assets/e692f05f/theia-sticky-sidebar/dist/theia-sticky-sidebar.min.js?v=1493119854"></script>
+<script src="https://hemis.namdu.uz/static/assets/57e092c/plugins/iCheck/icheck.min.js?v=1567066820"></script>
+<script src="https://hemis.namdu.uz/static/assets/57e092c/dist/js/adminlte.min.js?v=1567066820"></script>
+<script src="https://hemis.namdu.uz/static/assets/879fd64b/src/0.1.4/js/checkBo.min.js?v=1465721329"></script>
+<script src="https://hemis.namdu.uz/static/assets/bdb3d0a3/toastr.min.js?v=1439176619"></script>
+<script src="https://hemis.namdu.uz/static/assets/5572adf0/js/ajax-modal-popup.js?v=1646171075"></script>
+<script src="https://hemis.namdu.uz/static/assets/5572adf0/js/jquery.floatThead.min.js?v=1663744441"></script>
+<script src="https://hemis.namdu.uz/static/assets/5572adf0/js/jquery.formatter.min.js?v=1646171075"></script>
+<script src="https://hemis.namdu.uz/static/assets/5572adf0/js/scripts.js?v=1681792978"></script>
+<script src="https://hemis.namdu.uz/static/assets/5572adf0/js/js.cookie.js?v=1646171075"></script>
+<script src="https://hemis.namdu.uz/static/assets/9ab74456/js/front.js?v=1646171075"></script>
+<script>jQuery(function ($) {
+jQuery&&jQuery.pjax&&(jQuery.pjax.defaults.maxCacheLength=0);
+if (jQuery('#studentfinalexam-_subject').data('select2')) { jQuery('#studentfinalexam-_subject').select2('destroy'); }
+jQuery.when(jQuery('#studentfinalexam-_subject').select2(select2_565dde0b)).done(initS2Loading('studentfinalexam-_subject','s2options_7ebc6538'));
+
+jQuery('#w0').yiiActiveForm([{"id":"studentfinalexam-_subject","name":"_subject","container":".field-studentfinalexam-_subject","input":"#studentfinalexam-_subject","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Fanlar bo'sh bo'lishi mumkin emas"});}}], []);
+jQuery('#data-grid').yiiGridView({"filterUrl":"\/test\/exams","filterSelector":"#data-grid-filters input, #data-grid-filters select","filterOnFocusOut":true});
+jQuery(document).pjax("#test-grid a", {"push":false,"replace":false,"timeout":false,"scrollTo":false,"container":"#test-grid"});
+jQuery(document).off("submit", "#test-grid form[data-pjax]").on("submit", "#test-grid form[data-pjax]", function (event) {jQuery.pjax.submit(event, {"push":false,"replace":false,"timeout":false,"scrollTo":false,"container":"#test-grid"});});
+jQuery('#modal').modal({"show":false,"keyboard":true});
+});</script>    </body>
+</html>

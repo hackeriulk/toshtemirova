@@ -1,0 +1,337 @@
+
+<!DOCTYPE html>
+<html lang="uz-UZ">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='robots' content='noindex,follow' />
+    <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="AsTrHVka3XdEVz7rAMFa4pH-1xHENegv7MtBHuu_l1pAj7pQN32aQDwuC5pCpACVqcfgaYV6ulmv-gddidXlAg==">
+    <title> | HEMIS Student axborot tizimi</title>
+                <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=admin"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
+            gtag('config', 'admin');
+        </script>
+            <link href="https://hemis.namdu.uz/static/assets/1619872/css/bootstrap.css?v=1550073338" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/87d5e0e3/css/select2.min.css?v=1580187682" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/fe3afed0/css/select2-addl.min.css?v=1623968263" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/fe3afed0/css/select2-default.min.css?v=1600921092" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/824b60c5/css/kv-widgets.min.css?v=1654092339" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/5ac459df/themes/smoothness/jquery-ui.css?v=1474004875" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/e692f05f/chosen_v1.4.0/chosen.min.css?v=1600921112" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/e692f05f/components-font-awesome/css/font-awesome.min.css?v=1401044116" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">         
+            <link href="https://hemis.namdu.uz/static/assets/35dce5a3/css/font-awesome.min.css?v=1477324374" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/57e092c/plugins/iCheck/flat/blue.css?v=1567066820" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/57e092c/dist/css/AdminLTE.min.css?v=1567066820" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/57e092c/dist/css/skins/skin-blue.min.css?v=1567066820" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/879fd64b/src/0.1.4/css/checkBo.min.css?v=1465721329" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/bdb3d0a3/toastr.min.css?v=1439176619" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/5572adf0/css/style.css?v=1667492828" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic" rel="stylesheet">
+            <link href="https://hemis.namdu.uz/static/assets/9ab74456/css/front.css?v=1676695277" rel="stylesheet">
+<script>var s2options_7ebc6538 = {"themeCss":".select2-container--default","sizeCss":"","doReset":true,"doToggle":false,"doOrder":false};
+window.select2_013cbdc8 = {"allowClear":true,"placeholder":"Statusni tanlang","theme":"default","width":"100%","minimumResultsForSearch":Infinity,"language":"uz-UZ"};
+
+var globalMessages={"deleteItem":"Haqiqatan o‘chirmoqchimisiz?"};</script>    </head>
+<body class="sidebar-mini skin-blue ">
+        <div class="wrapper">
+
+    
+<div id="modal" class="fade modal" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div id="modalHeader" class="modal-header" style="opacity:1.00;">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+Guruh jadvali ma’lumotlari
+</div>
+<div class="modal-body">
+<div id='modalContent'></div>
+</div>
+
+</div>
+</div>
+</div>    
+<header class="main-header">
+
+    <a class="logo" href="../main page/index.html"><span class="logo-lg">HEMIS Student</span></a>
+    <nav class="navbar navbar-static-top" role="navigation">
+
+        <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+            <span class="sr-only">Toggle navigation</span>
+        </a>
+
+        <div class="navbar-custom-menu">
+
+            <ul class="nav navbar-nav">
+                                    <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        O‘zbekcha                        </a>
+                    <ul class="dropdown-menu">
+                                    
+                                                                                                                                                                                                                </ul>
+                </li>
+                <!-- <li>
+                <a href="">
+                    <i class="fa fa-refresh"></i>
+                </a>
+            </li>-->
+                <li class="dropdown notifications-menu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="fa fa-bell-o"></i>
+                        <span class="label label-warning">0</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <ul class="menu">
+                                                                </ul>
+                        </li>
+                        <li class="footer">
+                            <a href="#">Barchasini ko‘rish</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dropdown  user-menu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <img src="https://hemis.namdu.uz/static/pi/7/2/72cc5ff4652b9e40bff7cb8b00e6b2f1.jpg" class="user-image"
+                             alt="TOSHTEMIROVA L.M"/>
+                        <span class="user-name">TOSHTEMIROVA L.M</span>
+                        <span class="user-role">S.RUS-BU-21</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="../dashboard/profile.html">Profil</a>                            </li>
+                        <li>
+                            <a href="../student/personal-data.html">Shaxsiy ma'lumotlarim</a>                            </li>
+                        <li role="separator" class="divider"></li>
+                        <li>
+                            <a href="../index.html"><i class='fa fa-sign-out'></i> Chiqish</a>                            </li>
+                    </ul>
+
+
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<aside class="main-sidebar">
+    <section class="sidebar">
+        <ul class="sidebar-menu tree" data-widget="tree">
+                                            <li class="treeview ">
+                    <a href="../education/time-table.html">
+                        <i class="fa fa-book"></i> <span>O'quv reja</span>
+                        <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
+                    </a>
+                    <ul class='treeview-menu' >
+                                                    <li class="">
+                                <a href="../education/curriculum.html">
+                                    <i class="fa fa-circle-o"></i>
+                                    <span>O'quv reja</span>
+                                </a>
+                            </li>
+                                                    <li class="">
+                                <a href="../education/time-table.html">
+                                    <i class="fa fa-circle-o"></i>
+                                    <span>Dars jadvali</span>
+                                </a>
+                            </li>
+                                                    <li class="">
+                                <a href="../education/exam-table.html">
+                                    <i class="fa fa-circle-o"></i>
+                                    <span>Nazorat jadvali</span>
+                                </a>
+                            </li>
+                                                    <li class="">
+                                <a href="../education/subjects.html">
+                                    <i class="fa fa-circle-o"></i>
+                                    <span>Fanlar resurslari</span>
+                                </a>
+                            </li>
+                                                    <li class="">
+                                <a href="../education/attendance.html">
+                                    <i class="fa fa-circle-o"></i>
+                                    <span>Davomat</span>
+                                </a>
+                            </li>
+                                                    <li class="">
+                                <a href="../education/performance.html">
+                                    <i class="fa fa-circle-o"></i>
+                                    <span>O'zlashtirish</span>
+                                </a>
+                            </li>
+                                                    <li class="">
+                                <a href="../education/exams.html">
+                                    <i class="fa fa-circle-o"></i>
+                                    <span>Imtihonlar</span>
+                                </a>
+                            </li>
+                                                    <li class="">
+                                <a href="../education/academic-data.html">
+                                    <i class="fa fa-circle-o"></i>
+                                    <span>Reyting daftarcha</span>
+                                </a>
+                            </li>
+                                                    <li class="">
+                                <a href="../education/subject-choose.html">
+                                    <i class="fa fa-circle-o"></i>
+                                    <span>Fan tanlovi</span>
+                                </a>
+                            </li>
+                                            </ul>
+                </li>
+                <li class="treeview ">
+                    <a href="../student/decree.html">
+                        <i class="fa fa-user"></i> <span>Talaba ma'lumoti</span>
+                        <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
+                    </a>
+                    <ul class='treeview-menu' >
+                                                    <li class="">
+                                <a href="../student/reference.html">
+                                    <i class="fa fa-circle-o"></i>
+                                    <span>Ma'lumotnomalar</span>
+                                </a>
+                            </li>
+                                                    <li class="">
+                                <a href="../student/personal-data.html">
+                                    <i class="fa fa-circle-o"></i>
+                                    <span>Shaxsiy ma'lumotlar</span>
+                                </a>
+                            </li>
+                                                    <li class="">
+                                <a href="../student/graduate-qualifying.html">
+                                    <i class="fa fa-circle-o"></i>
+                                    <span>Bitiruv ishi</span>
+                                </a>
+                            </li>
+                                            </ul>
+                </li>
+                                
+                                        <li class="treeview menu-open">
+                <a href="/dashboard/profile">
+                    <i class="fa fa-gear"></i> <span>Tizim</span>
+                    <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
+                </a>
+                <ul class='treeview-menu' style="display:block">
+                                                <li class="">
+                            <a href="../dashboard/profile.html">
+                                <i class="fa fa-circle"></i>
+                                <span>Profil</span>
+                            </a>
+                        </li>
+                                                <li class="active">
+                            <a href="../dashboard/logins.html">
+                                <i class="fa fa-circle-o"></i>
+                                <span>Kirish tarixi</span>
+                            </a>
+                        </li>
+                                        </ul>
+            </li>
+                    <li class="">
+            <a href="https://unilibrary.uz/" target="_blank">
+                <i class="fa fa-book"></i> <span>Elektron kutubxona</span>
+            </a>
+        </li>
+    </ul>
+</section>
+</aside>
+
+    <div class="content-wrapper">
+<section class="content">
+    <div id="log-grid" data-pjax-container=""><div class="box box-default ">
+<div id="data-grid" class="grid-view"><div class='box-body no-padding'><table class="table table-responsive table-striped table-hover "><thead>
+<tr><th><a href="#" data-sort="ip">IP manzil</a></th><th><a href="#" data-sort="login">Login</a></th><th><a href="#" data-sort="status">Holati</a></th><th><a class="desc" href="#" data-sort="created_at">Yaratilgan</a></th></tr>
+</thead>
+<tbody>
+<tr data-key="3682192"><td>84.54.115.89</td><td>309201102384</td><td>Muvaffaqiyatli</td><td>15.05.2023 15:34:18</td></tr>
+<tr data-key="3679225"><td>84.54.115.89</td><td>309201102384</td><td>Muvaffaqiyatli</td><td>15.05.2023 13:06:19</td></tr>
+<tr data-key="3679093"><td>84.54.115.89</td><td>309201102384</td><td>Muvaffaqiyatli</td><td>15.05.2023 13:01:19</td></tr>
+<tr data-key="3648978"><td>188.113.233.52</td><td>309201102384</td><td>Muvaffaqiyatli</td><td>11.05.2023 22:51:10</td></tr>
+<tr data-key="3637354"><td>188.113.211.98</td><td>309201102384</td><td>Muvaffaqiyatli</td><td>10.05.2023 21:36:12</td></tr>
+<tr data-key="3637348"><td>188.113.211.98</td><td>309201102384</td><td>Muvaffaqiyatsiz</td><td>10.05.2023 21:36:00</td></tr>
+<tr data-key="3279645"><td>84.54.115.89</td><td>309201102384</td><td>Muvaffaqiyatli</td><td>17.03.2023 18:22:39</td></tr>
+<tr data-key="3201220"><td>188.113.199.117</td><td>309201102384</td><td>Muvaffaqiyatli</td><td>06.03.2023 22:54:14</td></tr>
+<tr data-key="3201218"><td>188.113.199.117</td><td>309201102384</td><td>Muvaffaqiyatsiz</td><td>06.03.2023 22:54:01</td></tr>
+<tr data-key="3073763"><td>84.54.115.89</td><td>309201102384</td><td>Muvaffaqiyatli</td><td>18.02.2023 11:21:25</td></tr>
+<tr data-key="2562460"><td>188.113.208.15</td><td>309201102384</td><td>Muvaffaqiyatli</td><td>24.01.2023 19:50:22</td></tr>
+<tr data-key="2385050"><td>213.230.114.40</td><td>309201102384</td><td>Muvaffaqiyatli</td><td>24.12.2022 21:02:52</td></tr>
+<tr data-key="2078346"><td>84.54.115.89</td><td>309201102384</td><td>Muvaffaqiyatli</td><td>30.11.2022 11:31:53</td></tr>
+<tr data-key="2075389"><td>84.54.80.114</td><td>309201102384</td><td>Muvaffaqiyatsiz</td><td>30.11.2022 08:02:15</td></tr>
+<tr data-key="2075385"><td>84.54.80.114</td><td>309201102384</td><td>Muvaffaqiyatsiz</td><td>30.11.2022 08:01:48</td></tr>
+<tr data-key="2075379"><td>84.54.80.114</td><td>309201102384</td><td>Muvaffaqiyatsiz</td><td>30.11.2022 08:01:23</td></tr>
+<tr data-key="2063994"><td>185.139.137.36</td><td>309201102384</td><td>Muvaffaqiyatsiz</td><td>29.11.2022 12:27:44</td></tr>
+<tr data-key="2063988"><td>185.139.137.36</td><td>309201102384</td><td>Muvaffaqiyatsiz</td><td>29.11.2022 12:27:23</td></tr>
+<tr data-key="2061924"><td>185.139.137.36</td><td>309201102384</td><td>Muvaffaqiyatsiz</td><td>29.11.2022 10:36:04</td></tr>
+<tr data-key="2056108"><td>84.54.115.89</td><td>309201102384</td><td>Muvaffaqiyatsiz</td><td>28.11.2022 18:30:32</td></tr>
+<tr data-key="1862168"><td>84.54.115.89</td><td>309201102384</td><td>Muvaffaqiyatli</td><td>04.11.2022 11:37:48</td></tr>
+<tr data-key="1809626"><td>84.54.78.70</td><td>309201102384</td><td>Muvaffaqiyatsiz</td><td>29.10.2022 14:15:24</td></tr>
+<tr data-key="1809621"><td>84.54.78.70</td><td>309201102384</td><td>Muvaffaqiyatsiz</td><td>29.10.2022 14:14:48</td></tr>
+<tr data-key="1604078"><td>84.54.115.90</td><td>309201102384</td><td>Muvaffaqiyatli</td><td>23.09.2022 14:32:10</td></tr>
+<tr data-key="1604076"><td>84.54.115.90</td><td>309201102384</td><td>Muvaffaqiyatsiz</td><td>23.09.2022 14:32:01</td></tr>
+<tr data-key="1515215"><td>84.54.115.90</td><td>309201102384</td><td>Muvaffaqiyatli</td><td>05.09.2022 14:02:15</td></tr>
+<tr data-key="1514720"><td>188.113.248.34</td><td>309201102384</td><td>Muvaffaqiyatli</td><td>05.09.2022 13:01:53</td></tr>
+<tr data-key="1479194"><td>192.168.12.43</td><td>309201102384</td><td>Muvaffaqiyatli</td><td>29.07.2022 08:54:34</td></tr>
+<tr data-key="1473426"><td>192.168.12.43</td><td>309201102384</td><td>Muvaffaqiyatli</td><td>25.07.2022 15:08:41</td></tr>
+<tr data-key="1465624"><td>192.168.13.7</td><td>309201102384</td><td>Muvaffaqiyatli</td><td>21.07.2022 17:20:53</td></tr>
+<tr data-key="1465623"><td>192.168.13.7</td><td>309201102384</td><td>Muvaffaqiyatsiz</td><td>21.07.2022 17:20:34</td></tr>
+<tr data-key="1440817"><td>192.168.12.226</td><td>309201102384</td><td>Muvaffaqiyatli</td><td>13.07.2022 15:59:17</td></tr>
+<tr data-key="1440814"><td>192.168.12.226</td><td>309201102384</td><td>Muvaffaqiyatsiz</td><td>13.07.2022 15:58:52</td></tr>
+<tr data-key="1440813"><td>192.168.12.226</td><td>309201102384</td><td>Muvaffaqiyatsiz</td><td>13.07.2022 15:58:41</td></tr>
+<tr data-key="1440812"><td>192.168.12.226</td><td>309201102384</td><td>Muvaffaqiyatsiz</td><td>13.07.2022 15:58:33</td></tr>
+<tr data-key="1430392"><td>192.168.12.226</td><td>309201102384</td><td>Muvaffaqiyatli</td><td>08.07.2022 11:44:54</td></tr>
+<tr data-key="1430391"><td>192.168.12.226</td><td>309201102384</td><td>Muvaffaqiyatsiz</td><td>08.07.2022 11:44:48</td></tr>
+<tr data-key="1286855"><td>192.168.12.137</td><td>309201102384</td><td>Muvaffaqiyatli</td><td>23.06.2022 13:01:12</td></tr>
+<tr data-key="1145191"><td>192.168.12.226</td><td>309201102384</td><td>Muvaffaqiyatli</td><td>13.06.2022 16:12:33</td></tr>
+</tbody></table></div><div class='box-footer'><span class="summary">1-39 / jami 39 ta</span></div></div></div>
+</div>    </section>
+</div>
+
+<footer class="main-footer">
+<div class="hidden-xs">
+    <b>Dastur versiyasi</b> 0.8.17.3 /
+    <b>Yadro</b> 2.0.41.1 /
+    <b>Sana</b> 15.05.2023 16:12:13    </div>
+</footer>
+</div>
+<script src="https://hemis.namdu.uz/static/assets/5572adf0/js/jquery.js?v=1646171075"></script>
+<script src="https://hemis.namdu.uz/static/assets/a039600/yii.js?v=1614872704"></script>
+<script src="https://hemis.namdu.uz/static/assets/87d5e0e3/js/select2.full.min.js?v=1580187682"></script>
+<script src="https://hemis.namdu.uz/static/assets/fe3afed0/js/select2-krajee.min.js?v=1623968263"></script>
+<script src="https://hemis.namdu.uz/static/assets/824b60c5/js/kv-widgets.min.js?v=1654092339"></script>
+<script src="https://hemis.namdu.uz/static/assets/a039600/yii.activeForm.js?v=1614872704"></script>
+<script src="https://hemis.namdu.uz/static/assets/a039600/yii.gridView.js?v=1614872704"></script>
+<script src="https://hemis.namdu.uz/static/assets/bd7dfa98/jquery.pjax.js?v=1507803074"></script>
+<script src="https://hemis.namdu.uz/static/assets/5ac459df/jquery-ui.js?v=1474004875"></script>
+<script src="https://hemis.namdu.uz/static/assets/1619872/js/bootstrap.js?v=1550073338"></script>
+<script src="https://hemis.namdu.uz/static/assets/e692f05f/theia-sticky-sidebar/dist/theia-sticky-sidebar.min.js?v=1493119854"></script>
+<script src="https://hemis.namdu.uz/static/assets/57e092c/plugins/iCheck/icheck.min.js?v=1567066820"></script>
+<script src="https://hemis.namdu.uz/static/assets/57e092c/dist/js/adminlte.min.js?v=1567066820"></script>
+<script src="https://hemis.namdu.uz/static/assets/879fd64b/src/0.1.4/js/checkBo.min.js?v=1465721329"></script>
+<script src="https://hemis.namdu.uz/static/assets/bdb3d0a3/toastr.min.js?v=1439176619"></script>
+<script src="https://hemis.namdu.uz/static/assets/5572adf0/js/ajax-modal-popup.js?v=1646171075"></script>
+<script src="https://hemis.namdu.uz/static/assets/5572adf0/js/jquery.floatThead.min.js?v=1663744441"></script>
+<script src="https://hemis.namdu.uz/static/assets/5572adf0/js/jquery.formatter.min.js?v=1646171075"></script>
+<script src="https://hemis.namdu.uz/static/assets/5572adf0/js/scripts.js?v=1681792978"></script>
+<script src="https://hemis.namdu.uz/static/assets/5572adf0/js/js.cookie.js?v=1646171075"></script>
+<script src="https://hemis.namdu.uz/static/assets/9ab74456/js/front.js?v=1646171075"></script>
+<script>jQuery(function ($) {
+jQuery&&jQuery.pjax&&(jQuery.pjax.defaults.maxCacheLength=0);
+if (jQuery('#systemlogin-status').data('select2')) { jQuery('#systemlogin-status').select2('destroy'); }
+jQuery.when(jQuery('#systemlogin-status').select2(select2_013cbdc8)).done(initS2Loading('systemlogin-status','s2options_7ebc6538'));
+
+jQuery('#w0').yiiActiveForm([], []);
+jQuery('#data-grid').yiiGridView({"filterUrl":"\/dashboard\/logins","filterSelector":"#data-grid-filters input, #data-grid-filters select","filterOnFocusOut":true});
+jQuery(document).pjax("#log-grid a", {"push":false,"replace":false,"timeout":false,"scrollTo":false,"container":"#log-grid"});
+jQuery(document).off("submit", "#log-grid form[data-pjax]").on("submit", "#log-grid form[data-pjax]", function (event) {jQuery.pjax.submit(event, {"push":false,"replace":false,"timeout":false,"scrollTo":false,"container":"#log-grid"});});
+jQuery('#modal').modal({"show":false,"keyboard":true});
+});</script>    </body>
+</html>
